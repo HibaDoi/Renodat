@@ -1,0 +1,14 @@
+# Compiled output (regenerate with: typst compile <file>.typ)
+*.pdf
+!D1.1/figures/*.pdf
+
+# Large or licensed source material (kept on disk, not versioned)
+*.zip
+NTA*.pdf
+
+# Frozen pre-git snapshot (superseded by git history)
+backup/
+
+# Office lock / temp files
+~$*
+*.tmp
